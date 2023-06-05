@@ -1,0 +1,135 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  margin: 0;
+  padding: 0px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 12px;
+}
+
+header {
+  background-color: #060d30;
+  color: #fff;
+}
+
+.MS {
+  width: 1160px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 50px;
+}
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px 0 0.5px;
+}
+
+.nav-links li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+h1, p {
+  font-size: 25px;
+  padding: 0 0 10px;
+}
+
+.logo {
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 30px;
+padding: 0 0 50px
+}
+
+section {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.service {
+  display: inline-block;
+  width: 300px;
+  margin: 30px 30px;
+  border: 4px solid #060d30;
+  border-radius: 10px;
+}
+
+.img-marcas {
+  width: 200px;
+  padding: 40px
+}
+
+.img-service {
+  width: 200px;
+  padding: 30px;
+}
+
+.service h2{
+  padding: 10px;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.button {
+  display: inline-block;
+  padding: 10px 20px ;
+  margin: 10px 0 10px 0;
+  background-color: #060d30;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #0d1d69;
+}
+.produto-lista {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+  margin: 30px;
+}
+
+.produto {
+  border: 2px solid #060d30;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.produto img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.produto h2 {
+  margin-bottom: 10px;
+}
+
+.produto p {
+  margin-bottom: 5px;
+}
+
+.produto .preco {
+  font-weight: bold;
+}
+.contato h2 {
+  padding: 0 10px;
+}
+
+footer {
+  background-color: #060d30;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
